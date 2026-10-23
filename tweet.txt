@@ -1,0 +1,5 @@
+made Muse Spark Open's projection kernel 144x slower overall than PyTorch on my RTX 3060.
+
+30 benchmark shapes. correct outputs.
+
+introducing Muse Sputter. correct answer. eventually.

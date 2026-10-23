@@ -1,0 +1,212 @@
+[
+  {
+    "m": 1,
+    "layer": "qkv_gate",
+    "load": "decode 1",
+    "weight": 62,
+    "seed": 201
+  },
+  {
+    "m": 1,
+    "layer": "o",
+    "load": "decode 1",
+    "weight": 62,
+    "seed": 202
+  },
+  {
+    "m": 1,
+    "layer": "pooler",
+    "load": "decode 1",
+    "weight": 62,
+    "seed": 203
+  },
+  {
+    "m": 1,
+    "layer": "unpooler",
+    "load": "decode 1",
+    "weight": 62,
+    "seed": 204
+  },
+  {
+    "m": 1,
+    "layer": "router",
+    "load": "decode 1",
+    "weight": 62,
+    "seed": 205
+  },
+  {
+    "m": 16,
+    "layer": "qkv_gate",
+    "load": "decode 16",
+    "weight": 62,
+    "seed": 206
+  },
+  {
+    "m": 16,
+    "layer": "o",
+    "load": "decode 16",
+    "weight": 62,
+    "seed": 207
+  },
+  {
+    "m": 16,
+    "layer": "pooler",
+    "load": "decode 16",
+    "weight": 62,
+    "seed": 208
+  },
+  {
+    "m": 16,
+    "layer": "unpooler",
+    "load": "decode 16",
+    "weight": 62,
+    "seed": 209
+  },
+  {
+    "m": 16,
+    "layer": "router",
+    "load": "decode 16",
+    "weight": 62,
+    "seed": 210
+  },
+  {
+    "m": 32,
+    "layer": "qkv_gate",
+    "load": "decode 32",
+    "weight": 62,
+    "seed": 211
+  },
+  {
+    "m": 32,
+    "layer": "o",
+    "load": "decode 32",
+    "weight": 62,
+    "seed": 212
+  },
+  {
+    "m": 32,
+    "layer": "pooler",
+    "load": "decode 32",
+    "weight": 62,
+    "seed": 213
+  },
+  {
+    "m": 32,
+    "layer": "unpooler",
+    "load": "decode 32",
+    "weight": 62,
+    "seed": 214
+  },
+  {
+    "m": 32,
+    "layer": "router",
+    "load": "decode 32",
+    "weight": 62,
+    "seed": 215
+  },
+  {
+    "m": 8,
+    "layer": "qkv_gate",
+    "load": "verify 1",
+    "weight": 62,
+    "seed": 216
+  },
+  {
+    "m": 8,
+    "layer": "o",
+    "load": "verify 1",
+    "weight": 62,
+    "seed": 217
+  },
+  {
+    "m": 8,
+    "layer": "pooler",
+    "load": "verify 1",
+    "weight": 62,
+    "seed": 218
+  },
+  {
+    "m": 8,
+    "layer": "unpooler",
+    "load": "verify 1",
+    "weight": 62,
+    "seed": 219
+  },
+  {
+    "m": 8,
+    "layer": "router",
+    "load": "verify 1",
+    "weight": 62,
+    "seed": 220
+  },
+  {
+    "m": 128,
+    "layer": "qkv_gate",
+    "load": "verify 16",
+    "weight": 62,
+    "seed": 221
+  },
+  {
+    "m": 128,
+    "layer": "o",
+    "load": "verify 16",
+    "weight": 62,
+    "seed": 222
+  },
+  {
+    "m": 128,
+    "layer": "pooler",
+    "load": "verify 16",
+    "weight": 62,
+    "seed": 223
+  },
+  {
+    "m": 128,
+    "layer": "unpooler",
+    "load": "verify 16",
+    "weight": 62,
+    "seed": 224
+  },
+  {
+    "m": 128,
+    "layer": "router",
+    "load": "verify 16",
+    "weight": 62,
+    "seed": 225
+  },
+  {
+    "m": 256,
+    "layer": "qkv_gate",
+    "load": "verify 32",
+    "weight": 62,
+    "seed": 226
+  },
+  {
+    "m": 256,
+    "layer": "o",
+    "load": "verify 32",
+    "weight": 62,
+    "seed": 227
+  },
+  {
+    "m": 256,
+    "layer": "pooler",
+    "load": "verify 32",
+    "weight": 62,
+    "seed": 228
+  },
+  {
+    "m": 256,
+    "layer": "unpooler",
+    "load": "verify 32",
+    "weight": 62,
+    "seed": 229
+  },
+  {
+    "m": 256,
+    "layer": "router",
+    "load": "verify 32",
+    "weight": 62,
+    "seed": 230
+  }
+]

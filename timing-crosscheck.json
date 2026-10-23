@@ -1,0 +1,116 @@
+{
+  "case": {
+    "m": 32,
+    "n": 2304,
+    "k": 8192,
+    "layer": "qkv_gate"
+  },
+  "method": "External CUDA events enclosing replay versus the timed CUDA event nodes inside the same replay.",
+  "results": {
+    "baseline": {
+      "inside_median_ms": 0.477183997631073,
+      "enclosing_median_ms": 0.48127999901771545,
+      "enclosing_over_inside": 1.0085836939356236,
+      "samples": [
+        {
+          "inside_ms": 0.4567039906978607,
+          "enclosing_ms": 0.4607999920845032
+        },
+        {
+          "inside_ms": 0.477183997631073,
+          "enclosing_ms": 0.48127999901771545
+        },
+        {
+          "inside_ms": 0.1945600062608719,
+          "enclosing_ms": 0.2682879865169525
+        },
+        {
+          "inside_ms": 1.0362880229949951,
+          "enclosing_ms": 1.0393600463867188
+        },
+        {
+          "inside_ms": 0.7895039916038513,
+          "enclosing_ms": 0.792576014995575
+        },
+        {
+          "inside_ms": 0.8437759876251221,
+          "enclosing_ms": 0.8468480110168457
+        },
+        {
+          "inside_ms": 0.5109760165214539,
+          "enclosing_ms": 0.5140479803085327
+        },
+        {
+          "inside_ms": 0.2088959962129593,
+          "enclosing_ms": 0.24166400730609894
+        },
+        {
+          "inside_ms": 0.4546560049057007,
+          "enclosing_ms": 0.4567039906978607
+        },
+        {
+          "inside_ms": 0.1955839991569519,
+          "enclosing_ms": 0.19968000054359436
+        },
+        {
+          "inside_ms": 0.536575973033905,
+          "enclosing_ms": 0.5416960120201111
+        }
+      ]
+    },
+    "parody": {
+      "inside_median_ms": 164.36122131347656,
+      "enclosing_median_ms": 164.4257354736328,
+      "enclosing_over_inside": 1.000392514485112,
+      "samples": [
+        {
+          "inside_ms": 190.8889617919922,
+          "enclosing_ms": 190.89407348632812
+        },
+        {
+          "inside_ms": 153.14022827148438,
+          "enclosing_ms": 153.2026824951172
+        },
+        {
+          "inside_ms": 160.7342071533203,
+          "enclosing_ms": 160.7710723876953
+        },
+        {
+          "inside_ms": 175.02310180664062,
+          "enclosing_ms": 175.0261688232422
+        },
+        {
+          "inside_ms": 159.98361206054688,
+          "enclosing_ms": 159.9877166748047
+        },
+        {
+          "inside_ms": 164.36122131347656,
+          "enclosing_ms": 164.4257354736328
+        },
+        {
+          "inside_ms": 156.1979217529297,
+          "enclosing_ms": 156.21119689941406
+        },
+        {
+          "inside_ms": 182.4911346435547,
+          "enclosing_ms": 182.4952392578125
+        },
+        {
+          "inside_ms": 183.08607482910156,
+          "enclosing_ms": 183.09120178222656
+        },
+        {
+          "inside_ms": 162.197509765625,
+          "enclosing_ms": 162.20159912109375
+        },
+        {
+          "inside_ms": 227.50515747070312,
+          "enclosing_ms": 227.5082244873047
+        }
+      ]
+    }
+  },
+  "inside_slowdown": 344.43992700809247,
+  "enclosing_slowdown": 341.6425694174348,
+  "within_10_percent": true
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+.env
+.env.*
+.pytest_cache/
+# Upstream reference files are fetched and checked locally, not republished.
+reference/*.py
+# Keep new experiments separate from the recorded benchmark evidence.
+local-results*

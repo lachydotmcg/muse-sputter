@@ -1,0 +1,11 @@
+{
+  "passed": true,
+  "source_hashes_match": true,
+  "benchmark_shapes": 30,
+  "published_stress_cases": 9,
+  "additional_edge_cases": 2,
+  "paired_samples": 930,
+  "independently_recomputed_slowdown": 143.7877884143627,
+  "benchmark_results_sha256": "f98649e8e4acefd19b8bb784ef848ebc821b14507a6457a3a49e63ecf92f2df4",
+  "scope": "Saved-data arithmetic and provenance audit; GPU timings are measured by benchmark.py."
+}
