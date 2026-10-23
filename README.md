@@ -6,7 +6,7 @@ own sake.
 Yes, I'm that bored.
 
 The Open Kernel Challenge wants faster Muse Spark Open kernels. I aimed for
-100x slower and got **143.8x slower overall than PyTorch on my RTX 3060**.
+100x slower and got **143.8x slower overall than PyTorch on my RTX 3060**, I'm just that good, or, just that bad.
 I split matrix multiplication into thousands of tiny operations that run one
 after another. Every FLOP deserves a work-life balance.
 
